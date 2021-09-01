@@ -11,8 +11,7 @@
  */
 
 
-// eslint-disable-next-line @typescript-eslint/no-var-requires
-const localVarRequest = require('request');
+import * as localVarRequest from 'request';
 import * as http from 'http';
 
 /* tslint:disable:no-unused-locals */
