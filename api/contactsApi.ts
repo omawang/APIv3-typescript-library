@@ -11,9 +11,6 @@
  */
 
 
-import localVarRequest from 'request';
-import http from 'http';
-
 /* tslint:disable:no-unused-locals */
 import { AddContactToList } from '../model/addContactToList';
 import { CreateAttribute } from '../model/createAttribute';
@@ -45,6 +42,11 @@ import { ObjectSerializer, Authentication, VoidAuth, Interceptor } from '../mode
 import { ApiKeyAuth } from '../model/models';
 
 import { HttpError } from './apis';
+
+// eslint-disable-next-line @typescript-eslint/no-var-requires
+const localVarRequest = require('request');
+// eslint-disable-next-line @typescript-eslint/no-var-requires
+const http = require('http');
 
 const defaultBasePath = 'https://api.sendinblue.com/v3';
 
