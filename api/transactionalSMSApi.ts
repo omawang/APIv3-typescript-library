@@ -11,8 +11,10 @@
  */
 
 
-import localVarRequest from 'request';
-import http from 'http';
+// eslint-disable-next-line @typescript-eslint/no-var-requires
+const localVarRequest = require('request');
+// eslint-disable-next-line @typescript-eslint/no-var-requires
+const http = require('http');
 
 /* tslint:disable:no-unused-locals */
 import { GetSmsEventReport } from '../model/getSmsEventReport';
